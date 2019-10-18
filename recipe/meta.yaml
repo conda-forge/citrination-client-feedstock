@@ -1,5 +1,5 @@
 {% set name = "citrination-client" %}
-{% set version = "5.3.0" %}
+{% set version = "6.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e7a0576dab1878f1949f99c8b6bbf32338b5f4f4a51f98c7ff3df593d9ec5fa3
+  sha256: 8aa6b6b7dee8a6d38e9f84aad3e00582151ec154ae1086fd955cbff9f2744513
 
 build:
   noarch: python
