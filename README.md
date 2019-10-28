@@ -120,5 +120,6 @@ Feedstock Maintainers
 * [@eddotman](https://github.com/eddotman/)
 * [@jsomara](https://github.com/jsomara/)
 * [@maxhutch](https://github.com/maxhutch/)
+* [@sdedkins](https://github.com/sdedkins/)
 * [@sparadiso](https://github.com/sparadiso/)
 
