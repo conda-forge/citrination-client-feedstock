@@ -1,5 +1,5 @@
 {% set name = "citrination-client" %}
-{% set version = "6.2.0" %}
+{% set version = "6.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a26d63f8aa6958dc4b6dfc72e544cbcfb4ff2dc879b9d1a17df93f95ec4493b2
+  sha256: 1bc12810070b16899c4c67a7c2d8c4969640f2b605dc8ed4f54b73df7f8bc89e
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -21,23 +21,23 @@ requirements:
   run:
     - python
     - numpy
-    - requests 
-    - requests-mock 
-    - six 
-    - pyyaml 
+    - requests
+    - requests-mock
+    - six
+    - pyyaml
     - pypif
     - setuptools
 
 test:
   imports:
     - citrination_client
-    
+
 about:
   home: http://github.com/CitrineInformatics/python-citrination-client
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Reference implementation in python for Citrination api'
+  summary: Reference implementation in python for Citrination api
 
   description: |
     Python client for accessing the Citrination api
