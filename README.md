@@ -5,7 +5,7 @@ Home: http://github.com/CitrineInformatics/python-citrination-client
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Reference implementation in python for Citrination api
 
